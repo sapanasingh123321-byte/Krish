@@ -1,0 +1,122 @@
+<html>
+  <head><title>giyu tmoyoka</title>
+  <style>
+    body{
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+      background-color: #c4dbf8b2;
+      position: relative;
+      
+    }
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+      width:100%;
+      height: 100px;
+      border-bottom: solid #9ac3fa62 2px;
+      background-color: #afcef762;
+      backdrop-filter: blur(3px);
+    }
+ 
+    
+    .tools{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 400px;
+      gap: 20px;
+    }
+    h1{
+      font-size: 6vw;
+      font-weight: 300px;
+    }
+    .nav_btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      font-weight: 100px;
+      background-color:#72abf86a ;
+      height: 60px;
+      width: 600px;
+      border-radius: 5px;
+      backdrop-filter: blur(4px);
+      border: solid #93c0fc6a;
+      border: solid  #e8f1fdf1;
+    }
+    .section{
+      position: relative;
+      display: flex;
+      height:calc(100% - 100px);
+      justify-content:center;
+      align-items: center;
+      border: solid black;
+      
+    }
+    .giyu{
+    
+      position: fixed;
+      left: -550px;
+      height: 2600px;
+      width: 1450px;
+      top: 50px;
+      z-index: 1;
+    }
+    .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 600px;
+      width: 800px;
+      background-color: #9fc7fdb2;
+      backdrop-filter: blur(3px);
+      z-index: 5;
+      border-radius: 30px;
+       box-shadow: 5px 5px 30px #89bbfff1 ,5px 5px 30px #89bbfff1;
+       border: solid #e8f1fdf1;
+    }
+    
+    .logo{
+      position: absolute;
+      top: -150px;
+      border: solid white;
+      background-image: url('krish.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 300px;
+      height: 300px;
+      border-radius: 180px;
+    }
+    
+    @media (max-width:950px){
+       .box{
+    position: fixed;
+      height: 700px;
+      width: 100%;
+      bottom: 5px;
+      box-shadow: 5px 5px 30px #89bbfff1 ,5px 5px 30px #89bbfff1;
+    }
+      
+    }
+  </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Krish singh</h1>
+      <div class="tools"><div class="nav_btn">about</div>
+        <div class="nav_btn">feedback</div>
+        <div></div>
+    </nav>
+  <div class="section"><img class="giyu" src="giyu.png">
+ <div class="box">
+   <div class="logo"></div>
+   <h3>Krish singh</h3>
+ </div>
+  </div>
+  </body>
+</html>
